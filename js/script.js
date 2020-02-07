@@ -14,10 +14,6 @@ grid.addEventListener('click', function(e) {
     } else {
         numbers.push(letterXId + letterYId)
         letterBar.innerText += letter
-        numbers.push([letterXId, letterYId])
-        done = true
-    } else {
-        done = false
     }
 })
 
