@@ -14,6 +14,8 @@ grid.addEventListener('click', function(e) {
         letterBar.innerText += letter
         numbers.push([letterXId, letterYId])
         done = true
+    } else {
+        done = false
     }
     // if (numbers.includes([letterXId, letterYId])) {
     //     alert('you clicked this')
@@ -23,8 +25,6 @@ grid.addEventListener('click', function(e) {
 
     // }
 })
-
-
 
 // grid.addEventListener('click', function(e) {
 //     if (e.target.dataset.xId + 2 && e.target.dataset.yId + 2)
